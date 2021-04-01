@@ -15,7 +15,7 @@ public class seleniumBrokenLinksMain {
 		
 		
 		 // System Property for Chrome Driver  , telling selenium what browser type of driver we will ve using 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mohamed.Nheri\\eclipse-workspace\\Recap\\chromedriver.exe"); 
+        System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe"); 
 		ChromeDriver driver = new ChromeDriver(); //driver have a reference in the memory == not null
 		
 
